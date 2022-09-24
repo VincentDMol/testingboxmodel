@@ -1,9 +1,20 @@
-.box {
+* {
+text-align: center;
+
+}
+
+
+.box, .firstpar {
 background-color: darkblue;
 color: darkgray;
 margin: 20px;
 border: 15px dotted grey;
 padding: 30px;
 text-align: center;
-
+}
+.firstpar {
+    background-color: green;
+}
+img {
+    border: 2px solid rebeccapurple; 
 }
